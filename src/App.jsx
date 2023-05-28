@@ -1,5 +1,13 @@
+import {
+	RouterProvider,
+	createBrowserRouter,
+	createRoutesFromElements,
+} from "react-router-dom";
+import AllRoutes from "./routes/AllRoutes";
+
 const App = () => {
-	return <div className="bg-white">App</div>;
+	const router = createBrowserRouter(createRoutesFromElements(AllRoutes));
+	return <RouterProvider router={router} />;
 };
 
 export default App;
