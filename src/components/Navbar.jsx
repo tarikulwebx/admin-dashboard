@@ -72,7 +72,7 @@ const Navbar = () => {
 				{themeMode === "light" ? (
 					<button
 						onClick={() => handleThemeMode("dark")}
-						className="text-xl  text-gray-400 transition-colors hover:text-gray-600 dark:hover:text-gray-300"
+						className="-mr-2 h-8 w-8 p-1 text-xl text-gray-400 transition-colors hover:text-gray-600 dark:hover:text-gray-300"
 						title="Dark"
 					>
 						<MoonStarsOutlineIcon />
@@ -80,7 +80,7 @@ const Navbar = () => {
 				) : (
 					<button
 						onClick={() => handleThemeMode("light")}
-						className="text-xl  text-gray-400 transition-colors hover:text-gray-600 dark:hover:text-gray-300"
+						className="-mr-2 h-8 w-8 p-1 text-xl text-gray-400 transition-colors hover:text-gray-600 dark:hover:text-gray-300"
 						title="Light"
 					>
 						<SunIcon />
@@ -89,7 +89,7 @@ const Navbar = () => {
 				{/* Notification Menu */}
 				<Menu as="div" className="relative flex h-full items-center">
 					<Menu.Button
-						className="relative flex h-8 w-8 items-center justify-center rounded-full  text-xl text-gray-400 transition-colors hover:text-gray-600 dark:hover:text-gray-300"
+						className="relative flex h-8 w-8 items-center justify-center rounded-full p-1  text-xl text-gray-400 transition-colors hover:text-gray-600 dark:hover:text-gray-300"
 						title="Notifications"
 					>
 						<BellOutlineIcon />
@@ -139,7 +139,7 @@ const Navbar = () => {
 				{/* Messages Menu */}
 				<Menu as="div" className="relative flex h-full items-center">
 					<Menu.Button
-						className="relative flex h-8 w-8 items-center justify-center rounded-full text-xl  text-gray-400 transition-colors hover:text-gray-600 dark:hover:text-gray-300"
+						className="relative flex h-8 w-8 items-center justify-center rounded-full p-1 text-xl  text-gray-400 transition-colors hover:text-gray-600 dark:hover:text-gray-300"
 						title="Messages"
 					>
 						<EnvelopeIcon />
