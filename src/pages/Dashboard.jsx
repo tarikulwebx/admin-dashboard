@@ -1,9 +1,24 @@
+import { Breadcrumb } from "../components";
+
+const breadcrumbItems = [
+	{
+		label: "Home",
+		path: "/",
+	},
+];
+
 const Dashboard = () => {
 	return (
-		<div className="flex justify-between">
-			<h1>Dashboard</h1>
-			<p>Test</p>
-		</div>
+		<>
+			<Breadcrumb
+				breadcrumbItems={breadcrumbItems}
+				pageTitle="Dashboard"
+			/>
+			<div className="flex justify-between">
+				<h1>Dashboard</h1>
+				<p>Test</p>
+			</div>
+		</>
 	);
 };
 
