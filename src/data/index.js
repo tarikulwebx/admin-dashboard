@@ -3,6 +3,7 @@ import {
 	ArticleIcon,
 	CardOutlineIcon,
 	DashboardIcon,
+	Error404Icon,
 	InfoCircleOutlineIcon,
 	PostAddIcon,
 	PuzzleOutlineIcon,
@@ -39,6 +40,13 @@ export const navItems = [
 	},
 	{
 		id: 4,
+		name: "404",
+		path: "/404",
+		icon: Error404Icon,
+		subItems: [],
+	},
+	{
+		id: 5,
 		name: "Elements",
 		path: "/elements",
 		icon: PuzzleOutlineIcon,

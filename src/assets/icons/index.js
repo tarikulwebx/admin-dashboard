@@ -4,6 +4,9 @@ import {
 	FaRegUserCircle as UserCircleIcon,
 	FaUserPlus as UserPlusIcon,
 	FaBell as BellIcon,
+	FaTrafficLight as TrafficSolidIcon,
+	FaUsers as UsersFillIcon,
+	FaRegChartBar as BarChartIcon,
 } from "react-icons/fa";
 import {
 	FiUsers as UsersIcon,
@@ -16,7 +19,10 @@ import {
 	FiUserPlus as UserPlus,
 	FiUserMinus as UserMinus,
 } from "react-icons/fi";
-import { HiArrowLeft as ArrowLeftIcon } from "react-icons/hi";
+import {
+	HiArrowLeft as ArrowLeftIcon,
+	HiOutlineRefresh as RefreshOutlineIcon,
+} from "react-icons/hi";
 import {
 	HiBars3 as ThreeBarIcon,
 	HiSquare3Stack3D as Stack3DIcon,
@@ -27,6 +33,7 @@ import {
 	IoIosArrowDown as ArrowDown,
 	IoIosArrowUp as ArrowUp,
 	IoIosPeople as PeoplesIcon,
+	IoMdRefresh as LoaderSingleCircleIcon,
 } from "react-icons/io";
 
 import { IoServerOutline as ServerOutlineIcon } from "react-icons/io5";
@@ -46,20 +53,26 @@ import {
 	MdArticle as ArticleFillIcon,
 	MdPostAdd as PostAddIcon,
 	MdOutlineAutoDelete as ArticleDeletedIcon,
+	MdCalendarMonth as CalendarOutlineIcon,
 } from "react-icons/md";
 import { GoSearch as SearchIcon } from "react-icons/go";
 import { RiTableLine as TableIcon } from "react-icons/ri";
 import { AiOutlineCreditCard as CardOutlineIcon } from "react-icons/ai";
 import { RxEnvelopeClosed as EnvelopeIcon } from "react-icons/rx";
+import { ImBooks as BooksFillIcon } from "react-icons/im";
+import { TiChartLineOutline as GraphUpArrowIcon } from "react-icons/ti";
+import { TbError404 as Error404Icon } from "react-icons/tb";
 
 export {
 	ArrowDown,
 	ArrowLeftIcon,
 	ArrowUp,
+	ArticleDeletedIcon,
 	ArticleFillIcon,
 	ArticleIcon,
 	BellIcon,
 	BellOutlineIcon,
+	BooksFillIcon,
 	CardOutlineIcon,
 	ChevronRight,
 	CloseIcon,
@@ -67,28 +80,35 @@ export {
 	DashboardIcon,
 	EnvelopeIcon,
 	EyeOutlineIcon,
+	InfoCircleOutlineIcon,
 	LogOutIcon,
 	MoonIcon,
 	MoonStarsIcon,
 	MoonStarsOutlineIcon,
 	PeoplesIcon,
 	PlusIcon,
+	PostAddIcon,
 	PuzzleOutlineIcon,
 	SearchIcon,
+	ServerOutlineIcon,
 	SettingsIcon,
+	SpeedoMeterIcon,
 	Stack3DIcon,
 	SunIcon,
 	TableIcon,
 	ThreeBarIcon,
 	ThreeDotsVerticalIcon,
+	TrafficSolidIcon,
 	UserCircleIcon,
-	UserPlusIcon,
-	UsersIcon,
-	InfoCircleOutlineIcon,
-	UserPlus,
 	UserMinus,
-	PostAddIcon,
-	ArticleDeletedIcon,
-	SpeedoMeterIcon,
-	ServerOutlineIcon,
+	UserPlus,
+	UserPlusIcon,
+	UsersFillIcon,
+	UsersIcon,
+	BarChartIcon,
+	RefreshOutlineIcon,
+	LoaderSingleCircleIcon,
+	GraphUpArrowIcon,
+	CalendarOutlineIcon,
+	Error404Icon,
 };

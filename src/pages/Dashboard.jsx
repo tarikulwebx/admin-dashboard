@@ -1,4 +1,10 @@
-import { Breadcrumb } from "../components";
+import {
+	Breadcrumb,
+	InfoCards,
+	SectionGap,
+	StatisticsChart,
+	VisitorsTable,
+} from "../components";
 
 const breadcrumbItems = [
 	{
@@ -14,10 +20,11 @@ const Dashboard = () => {
 				breadcrumbItems={breadcrumbItems}
 				pageTitle="Dashboard"
 			/>
-			<div className="flex justify-between">
-				<h1>Dashboard</h1>
-				<p>Test</p>
-			</div>
+			<InfoCards />
+			<SectionGap />
+			<VisitorsTable />
+			<SectionGap />
+			<StatisticsChart />
 		</>
 	);
 };

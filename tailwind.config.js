@@ -7,8 +7,8 @@ export default {
 			colors: {
 				primary: "#22c55e",
 				color: {
-					light: "rgba(255, 255, 255, 0.87)",
-					dark: "#374253",
+					light: "#d1d5db",
+					dark: "#4b5563",
 				},
 				bodyBackground: {
 					light: "#f7f9fb",

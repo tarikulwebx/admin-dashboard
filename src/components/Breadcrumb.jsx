@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const Breadcrumb = ({ breadcrumbItems, pageTitle }) => {
 	return (
 		<section className="py-5">
-			<h1 className=" text-2xl font-extrabold text-gray-600 dark:text-gray-200">
+			<h1 className=" mb-0.5 text-2xl font-bold text-gray-600 dark:text-gray-200">
 				{pageTitle ?? "..."}
 			</h1>
 			<nav>
@@ -44,8 +44,8 @@ const Breadcrumb = ({ breadcrumbItems, pageTitle }) => {
 };
 
 Breadcrumb.propTypes = {
-	breadcrumbItems: PropTypes.array.require,
-	pageTitle: PropTypes.string.require,
+	breadcrumbItems: PropTypes.array.isRequired,
+	pageTitle: PropTypes.string.isRequired,
 };
 
 export default Breadcrumb;

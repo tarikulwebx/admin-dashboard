@@ -44,7 +44,7 @@ const Navbar = () => {
 		}
 	};
 	return (
-		<div className="fixed left-0 right-0 top-0 flex h-16 items-center justify-between gap-5 bg-white px-3 shadow-sm dark:bg-gray-700 sm:px-5 lg:left-[290px]">
+		<div className="fixed left-0 right-0 top-0 z-40 flex h-16 items-center justify-between gap-5 bg-white px-3 shadow-sm dark:bg-gray-700 sm:px-5 lg:left-[290px]">
 			<div className="flex flex-1 items-center gap-3">
 				<button
 					className="p-1 text-[28px] text-gray-400 transition-colors dark:text-gray-400 dark:hover:text-gray-300 lg:hidden"
@@ -97,7 +97,7 @@ const Navbar = () => {
 							7
 						</span>
 					</Menu.Button>
-					<Menu.Items className="absolute right-0 top-8 flex w-[250px] flex-col overflow-hidden rounded-xl border border-gray-100 bg-white shadow-md dark:border-gray-600/50 dark:bg-gray-700">
+					<Menu.Items className="absolute right-0 top-8  flex w-[250px] flex-col overflow-hidden rounded-xl border border-gray-100 bg-white shadow-md dark:border-gray-600/50 dark:bg-gray-700">
 						<h4 className="mb-1 truncate border-b border-b-gray-50 bg-slate-100 px-3 py-2 text-left text-[0.98rem] font-bold text-gray-500 dark:border-b-gray-600/50 dark:bg-gray-800 dark:text-gray-300">
 							You have 5 notifications
 						</h4>
